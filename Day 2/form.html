@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="./demo.html" method="get" onsubmit="alert('form submitted')">
+        <label for="fname"> Enter First Name</label>
+        <input type="text" id="fname" placeholder="Enter First Name..." required name="fName">
+        <br>
+        <br>
+        <label for="lname"> Enter Last Name</label>
+        <input type="text" id="lname" placeholder="Enter Last Name..." required name="lName">
+        <br>
+        <input type="text" placeholder="Sensitive Data....." value="Fixed Data" readonly name="tempData">
+        <input type="email" name="" id="" placeholder="Email">
+        <input type="number" name="" id="" min="5" max="10">
+        <input type="tel" name="" id="">
+        <input type="password" name="" id="">
+        <input type="color" name="" id="">
+        <input type="file" name="" id="">
+        <input type="data" name="" id="">
+
+        <br><br>
+
+        <fieldset>
+            <legend align="center">Buttons</legend>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    <!-- Diff between input type = tel and  input type=no 
+    form validation attribute
+    diff between action and method attribute
+    types of buttons in the form 
+    input type=checkbox
+    input type=radiobutton
+    -->
+</body>
+</html>
